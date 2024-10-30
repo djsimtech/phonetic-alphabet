@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d9e2e8;
+  justify-content: center;
+}
+.container {
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  background-color: lightblue;
+  margin: 100px auto;
+}
+.container h3 {
+  text-align: center;
+  font-size: 28px;
+  color: #083269;
+}
+ul {
+  list-style: none;
+  font-weight: 400;
+}
+/* Card */
+.card {
+  max-width: auto;
+  display: flex;
+  background-color: rgb(218, 213, 213);
+  padding: 20px 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+  flex-direction: row;
+  margin: 20px;
+  justify-content: space-around;
+  text-align: left;
+  border-style: dashed;
+}
+ul span {
+  font-weight: bolder;
+}
+.lettera,
+.letterg,
+.letterm,
+.letters,
+.lettery {
+  color: red;
+}
+.letterb,
+.letterh,
+.lettern,
+.lettert,
+.letterz {
+  color: blue;
+}
+.letterc,
+.letteri,
+.lettero,
+.letteru {
+  color: purple;
+}
+.letterd,
+.letterj,
+.letterp,
+.letterv {
+  color: green;
+}
+.lettere,
+.letterk,
+.letterq,
+.letterw {
+  color: yellow;
+}
+.letterf,
+.letterl,
+.letterr,
+.letterx {
+  color: orange;
+}
